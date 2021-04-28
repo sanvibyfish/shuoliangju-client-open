@@ -1,0 +1,43 @@
+@import "../../assets/scss/variables";
+
+.sections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding-left: 16px;
+  padding-right: 16px;
+
+  .section {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 16px;
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 16px;
+    padding-left: 16px;
+
+    &-image {
+      height: 56px;
+      width: 56px;
+      background-color: #a8a8a8;
+      border-radius: 50%;
+    }
+    &-text {
+      text-align: center;
+      font-size: 18px;
+      line-height: 28px;
+      padding-left: 16px;
+    }
+
+    &-button {
+      text-align: center;
+      font-size: 24px;
+    }
+
+  }
+
+}

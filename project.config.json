@@ -1,0 +1,217 @@
+{
+  "miniprogramRoot": "dist/",
+  "projectname": "shuoliangju-client",
+  "description": "shuoliangju client",
+  "appid": "wxf2c4ae532b3a8e9c",
+  "sitemapLocation": "sitemap.json",
+  "setting": {
+    "urlCheck": false,
+    "es6": false,
+    "enhance": true,
+    "postcss": false,
+    "preloadBackgroundData": false,
+    "minified": false,
+    "newFeature": true,
+    "coverView": true,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "useMultiFrameRuntime": false,
+    "useApiHook": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "bundle": false,
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "userConfirmedBundleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true
+  },
+  "compileType": "miniprogram",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "libVersion": "2.11.0",
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": 0,
+          "name": "pages/article-detail/article-detail",
+          "pathName": "pages/article-detail/article-detail",
+          "query": "articleId=3&appId=52",
+          "scene": null
+        },
+        {
+          "id": 1,
+          "name": "pages/post-detail/post-detail",
+          "pathName": "pages/post-detail/post-detail",
+          "query": "postId=65",
+          "scene": null
+        },
+        {
+          "id": 2,
+          "name": "pages/user-profile/user-profile",
+          "pathName": "pages/user-profile/user-profile",
+          "query": "userId=3",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "userId=3",
+          "scene": null
+        },
+        {
+          "id": 4,
+          "name": "pages/home/home",
+          "pathName": "pages/home/home",
+          "query": "appId=52",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/create-app/create-app",
+          "pathName": "pages/create-app/create-app",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": 6,
+          "name": "新建文章",
+          "pathName": "pages/new-article/new-article",
+          "query": "appId=52",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/app-detail/app-detail",
+          "pathName": "pages/app-detail/app-detail",
+          "query": "postId=65",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/message-subscribe/message-subscribe",
+          "pathName": "pages/message-subscribe/message-subscribe",
+          "query": "postId=65",
+          "scene": null
+        },
+        {
+          "id": 9,
+          "name": "feature-pages/pages/feature-home/feature-home",
+          "pathName": "feature-pages/pages/feature-home/feature-home",
+          "query": "appId=52",
+          "scene": null
+        },
+        {
+          "id": 10,
+          "name": "feature-pages/pages/group-list/group-list",
+          "pathName": "feature-pages/pages/group-list/group-list",
+          "query": "userId=11",
+          "scene": null
+        },
+        {
+          "id": 11,
+          "name": "feature-pages/pages/create-group/create-group",
+          "pathName": "feature-pages/pages/create-group/create-group",
+          "query": "appId=52",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/profile/profile",
+          "pathName": "pages/profile/profile",
+          "query": "appId=52",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "feature-pages/pages/create-group/create-group",
+          "pathName": "feature-pages/pages/create-group/create-group",
+          "query": "appId=52",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/product-list/product-list",
+          "pathName": "pages/product-list/product-list",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/create-product/create-product",
+          "pathName": "pages/create-product/create-product",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "feature-pages/pages/group-detail/group-detail",
+          "pathName": "feature-pages/pages/group-detail/group-detail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "feature-pages/pages/group-detail/group-detail",
+          "pathName": "feature-pages/pages/group-detail/group-detail",
+          "query": "groupId=10",
+          "scene": null
+        },
+        {
+          "id": 18,
+          "name": "pages/user-profile/user-profile",
+          "pathName": "pages/user-profile/user-profile",
+          "query": "userId=2",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "feature-pages/pages/group-list/group-list",
+          "pathName": "feature-pages/pages/group-list/group-list",
+          "query": "userId=2",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/create-product/create-product",
+          "pathName": "pages/create-product/create-product",
+          "query": "userId=11",
+          "scene": null
+        },
+        {
+          "id": 21,
+          "name": "pages/product-detail/product-detail",
+          "pathName": "pages/product-detail/product-detail",
+          "query": "productId=22",
+          "scene": null
+        },
+        {
+          "name": "pages/user-profile/user-profile",
+          "pathName": "pages/user-profile/user-profile",
+          "query": "userId=20",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

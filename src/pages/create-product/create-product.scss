@@ -1,0 +1,82 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  .images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin-top: 8px;
+
+    .image {
+      width: 26vw;
+      height: 26vw;
+      padding: 2vw;
+      display: flex;
+      justify-content: flex-end;
+
+      .btn-layout {
+        position: absolute;
+        padding-top: 4px;
+        padding-right: 4px;
+        z-index: 9999;
+
+        .remove {
+          background-color: red;
+          width: 24px;
+          height: 24px;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .remove-btn {
+          font-size: 16px;
+          color: white;
+        }
+      }
+
+      image {
+        position: relative;
+        height: 26vw;
+      }
+    }
+  }
+  .create-product {
+    background-color: #ffffff;
+    padding: 16px;
+    &-inputs {
+      background: #ffffff;
+      border-top: 1px solid #f4f4f4; 
+      border-bottom: 1px solid #f4f4f4; 
+    }
+  }
+  .new-product-input {
+    padding-top: 16px;
+    .product-input {
+      font-size: 16px;
+      height: 120px;
+      width: 100%;
+      border: 0px;
+    }
+  }
+  .product-btn {
+    margin-top: 16px;
+  }
+  .add-layout {
+    justify-content: center !important;
+    display: flex;
+    align-items: center;
+    .add {
+      font-size: 26vw;
+      line-height: 26vw;
+      align-self: center;
+      background-color: #a8a8a8;
+      color: white;
+    }
+  }
+}

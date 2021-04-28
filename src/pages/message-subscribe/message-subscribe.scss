@@ -1,0 +1,36 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f4f4;
+  .msg-header {
+    background-color: #1F53E4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .title {
+    margin-top: 16px;;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .body {
+    margin-top: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .body2 {
+    margin-top: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .sub-btn {
+    margin-top: 32px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}

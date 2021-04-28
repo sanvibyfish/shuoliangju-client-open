@@ -1,0 +1,112 @@
+@import "./assets/scss/iconfont.scss";
+@import "./assets/scss/editorfont.scss";
+
+.header {
+  align-self: flex-start;
+  margin-left: 16px;
+  margin-top: 24px;
+  font-size: 32px;
+  line-height: 38px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.noscroll {
+  height: 100%;
+  overflow: hidden;
+}
+
+button::after {
+  border: none;
+}
+button.button-hover {
+  background-color: #ffffff;
+}
+
+.empty-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.empty-bg {
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  &-tips {
+    font-size: 14px;
+    color: #444;
+  }
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  line-height: inherit;
+  //  height:50rpx;
+  border-radius: 0;
+  border: none;
+  font-size: 18rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background: #1f53e4;
+  box-shadow: 0px 16px 40px rgba(1, 53, 235, 0.08);
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #0001fc;
+}
+.fixed {
+  bottom: 0;
+  /* 在 H5 模式下将会编译成 margin-bottom: 50px，在小程序模式下则会忽略 */
+  margin-bottom: taro-tabbar-height;
+}
+
+.slj-input {
+  background: #ffffff;
+  border: 1px solid #a7a9be;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.slj-label {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  color: #0a1034;
+}
+
+.slj-group {
+  .slj-input {
+    margin-top: 8px;
+  }
+}

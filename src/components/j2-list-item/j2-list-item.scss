@@ -1,0 +1,65 @@
+@import "../../assets/scss/variables";
+.pr-8 {
+  padding-right: 8px;
+}
+.j2-item {
+  display: flex;
+  flex-direction: row;
+  background: #ffffff;
+  // box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.04);
+  justify-content: space-between;
+  // border-radius: 6px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  align-items: center;
+  border-bottom: 1px solid #ebedf0;
+
+  &-label {
+    display: flex;
+    font-size: 18px;
+    padding-left: 16px;
+    align-items: center;
+    min-width: 128px;
+
+    &-icon {
+      font-size: 26px;
+      line-height: 26px;
+    }
+  }
+  &-value {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    align-items: center;
+    font-size: 18px;
+    &-avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: #a8a8a8;
+    }
+
+    &-icon {
+      font-size: 24px;
+      line-height: 24px;
+    }
+    
+    &-badge {
+      width: 24px;
+      height: 24px;
+      line-height: 24px;
+      font-size: 14px;
+      border-radius: 50%;
+      background-color: #fe4444;
+      color: #ffffff;
+      text-align: center;
+    }
+
+    &-seleted {
+      font-size: 32px;
+      line-height: 32px;
+      padding-right: 8px;
+      color: #1f53e4;
+    }
+  }
+}

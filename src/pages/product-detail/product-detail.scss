@@ -1,0 +1,76 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 16px;
+
+  .price {
+    color: #9a9a9c;
+  }
+
+
+  .product-buttons {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    .del-btn {
+      background-color: #ec5b75;
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+    .share-btn {
+      margin-left: 16px;
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+  }
+
+  .images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+    .image {
+      width: 26vw;
+      height: 26vw;
+      padding: 2vw;
+      display: flex;
+      justify-content: flex-end;
+
+      .btn-layout {
+        position: absolute;
+        padding-top: 4px;
+        padding-right: 4px;
+        z-index: 9999;
+
+        .remove {
+          background-color: red;
+          width: 24px;
+          height: 24px;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .remove-btn {
+          font-size: 16px;
+          color: white;
+        }
+      }
+
+      image {
+        position: relative;
+        height: 26vw;
+      }
+    }
+  }
+  
+}

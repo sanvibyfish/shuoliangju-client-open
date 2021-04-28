@@ -1,0 +1,17 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f4f4;
+  .title {
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    background-color: #f4f4f4;
+  }
+  .user-info {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,48 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f4f4;
+  padding-left: 32px;
+  padding-right: 32px;
+  .feature-list {
+    &-header {
+      font-size: 32px;
+      font-weight: bold;
+      margin-top: 88px;
+    }
+    &-summary {
+      color:#757575;
+    }
+
+    &-items {
+      margin-top: 16px;
+      display: flex;
+      &-item {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        width: 38%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        border-radius: 15px;
+        background:#ececec;
+        text-decoration: none;
+        color: #000;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        &-icon {
+          height: 32px;
+          width: 32px;
+        }
+        &-text{
+          margin-left: 8px;
+        }
+        &-right {
+          margin-left: 32px;
+        }
+      }
+    }
+  }
+}

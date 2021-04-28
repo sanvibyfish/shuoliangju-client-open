@@ -1,0 +1,120 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #FDFEFF;
+
+  .form {
+    padding: 16px;
+
+    .new-post-input {
+      .post-input {
+        font-size: 18px;
+        height: 150px;
+        width: 100%;
+        border: 0px;
+      }
+    }
+
+    .images {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-content: space-between;
+      margin-top: 8px;
+  
+      .image {
+        width: 26vw;
+        height: 26vw;
+        padding: 2vw;
+        display: flex;
+        justify-content: flex-end;
+  
+        .btn-layout {
+          position: absolute;
+          padding-top: 4px;
+          padding-right: 4px;
+          z-index: 9999;
+  
+          .remove {
+            background-color: red;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+  
+          .remove-btn {
+            font-size: 16px;
+            color: white;
+          }
+        }
+  
+        image {
+          position: relative;
+          height: 30vw;
+        }
+      }
+    }
+
+    .features {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-top: 16px;
+
+      
+      &-item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background: #FFFFFF;
+        box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.04);
+        border-radius: 6px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        border-radius: 6px;
+
+        &-label {
+          font-size: 18px;
+          padding-left: 16px;
+        }
+        &-value {
+          display: flex;
+          flex-direction: row;
+          margin-left: auto;
+          align-items: center;
+          font-size: 18px;
+
+          &-icon {
+            font-size: 24px;
+            line-height: 24px;
+          }
+
+        }
+      }
+    }
+
+    .add-layout {
+      justify-content: center !important;
+      display: flex;
+      align-items: center;
+      .add {
+        font-size: 26vw;
+        line-height: 26vw;
+        align-self: center;
+        background-color: #a8a8a8;
+        color: white;
+      }
+    }
+
+    .post-btn {
+      margin-top: 16px;
+    }
+
+
+  }
+}

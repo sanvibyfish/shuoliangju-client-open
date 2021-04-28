@@ -1,0 +1,41 @@
+
+.container {
+    width:100%;
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    
+    .user {
+        display: flex;
+        flex-direction: column;
+        order:1;
+        width: 100%;
+        justify-content: flex-end;
+        .register{
+            margin-top: 24px;
+            align-self: center;
+        }      
+        .wechat-btn  {
+            margin-left: 16px;
+            margin-right: 16px;
+        }
+    }
+
+
+    .privacy {
+        color: #A7A9BE;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 24px;
+        order:2;
+        align-self: flex-end;
+        display: flex;
+        flex-direction: row;
+        font-size: 12px;
+        line-height: 19px;
+        .link{
+            font-size: 12px; 
+        }
+    }
+}

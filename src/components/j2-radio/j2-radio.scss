@@ -1,0 +1,36 @@
+@import "../../assets/scss/variables";
+
+  .j2-radio-item {
+    display: flex;
+    flex-direction: row;
+    background: #ffffff;
+    box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.04);
+    justify-content: space-between;
+    border-radius: 6px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    align-items: center;
+    margin-bottom: 16px;
+
+    &-label {
+      font-size: 18px;
+      padding-left: 16px;
+      align-items: center;
+
+    }
+    &-value {
+      display: flex;
+      flex-direction: row;
+      margin-left: auto;
+      align-items: center;
+      font-size: 18px;
+
+
+      &-seleted {
+        font-size: 32px;
+        line-height: 24px;
+        padding-right: 8px;
+        color: #1F53E4;
+      }
+    }
+  }

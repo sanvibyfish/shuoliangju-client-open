@@ -1,0 +1,32 @@
+
+.container {
+    width:100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    .register-form {
+        padding: 16px;
+
+        .name {
+            margin-top: 32px;
+        }
+
+        .pwd {
+            margin-top: 32px;
+        }
+
+        .confirm-pwd {
+            margin-top: 32px;
+        }
+
+        .register-button {
+            margin-top: 32px;
+        }
+
+        .login {
+            margin-top: 8px;
+            text-align: center;
+        }
+    }
+}

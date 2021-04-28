@@ -1,0 +1,121 @@
+@import "../../assets/scss/variables";
+
+.j2-header {
+  width: 100vw;
+  // height: 210px;
+  // position: relative;
+  &-content {
+    padding-top: 88px;
+    position: absolute;
+    top: 16px;
+    width: 92%;
+    left: 16px;
+    &-bar {
+      display: flex;
+      flex-direction: row;
+      &-name {
+        font-size: 24px;
+        font-weight: bold;
+        color: #ffffff;
+        padding-top: 4px;
+      }
+      &-icon {
+        font-size: 28px;
+        font-weight: bold;
+        color: #ffffff;
+        padding-top: 4px;
+      }
+      &-items {
+        position: absolute;
+        right: 0;
+        display: flex;
+        flex-direction: row;
+      }
+      &-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 4px;
+        background: none !important;
+        &-icon {
+          padding: 8px;
+          height: 36px;
+          width: 36px;
+          background-color: white;
+          border-radius: 50%;
+          }
+        &-text {
+          color:#ffffff;
+          font-size: 14px;
+        }
+   
+      }
+    }
+
+    &-summary {
+      padding-top: 4px;
+      font-size: 16px;
+      padding-right: 16px;
+      color: #ffffff;
+    }
+  }
+
+  &-bg {
+    height: 228px;
+    // width: 100vw;
+    border-bottom: 1px solid #dfe0df;
+  }
+  &-bg-mask {
+    height: 228px;
+    // width: 100vw;
+    background: rgba(0,0,0,.4);
+  }
+  &-tabs {
+    padding-top: 4px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    &-counts {
+      margin-left: 0;
+      padding-top: 4px;
+      color: #f4f4f4;
+      display: flex;
+      flex-direction: row;
+      &-posts {
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+    }
+    &-item {
+      &-ml16{
+        margin-left: 16px;
+      }
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      padding-left: 16px;
+      padding-right: 16px;
+      flex-direction: row;
+      border-radius: 5px;
+      background: #4c75e9;
+      text-decoration: none;
+      color: #444;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+      &-icon {
+        line-height: 24px;
+        font-size: 24px;
+        color: white;
+      }
+
+      &-text {
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 14px;
+      }
+    }
+  }
+
+}
