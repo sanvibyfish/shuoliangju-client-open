@@ -38,10 +38,10 @@ shuoliangju 是一个基于Taro2.0框架实现的微信论坛小程序，你可�
 ## 配置说明
 
 **src/config/index.ts**
-``
-export const BASE_URL = ''; //这里填入后端的API地址
 
-``
+```
+export const BASE_URL = ''; //这里填入后端的API地址
+```
 
 ## 贡献项目
 
